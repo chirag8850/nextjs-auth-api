@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vinejs/vine": "^2.1.0",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "lucide-react": "^0.395.0",
+    "mongoose": "^8.4.1",
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "postcss": "^8",
