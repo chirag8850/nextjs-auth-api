@@ -12,7 +12,7 @@ export async function POST(request) {
   try {
     // Set CORS headers
     const responseHeaders = new Headers();
-    responseHeaders.set('Access-Control-Allow-Origin', 'http://localhost:4200'); // Replace with your frontend origin
+    responseHeaders.set('Access-Control-Allow-Origin', '*'); // Replace with your frontend origin
     responseHeaders.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
     responseHeaders.set('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
